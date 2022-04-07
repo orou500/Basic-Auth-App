@@ -6,7 +6,7 @@ const methodOverride = require('method-override')
 const authRoutes = require('./routes/authRoutes')
 const cookieParaser = require('cookie-parser')
 const { checkAuth, checkUser } = require('./middlewares/checkAuth')
-mongoose.connect(`mongodb+srv://sizex:1qa2ws3ed@league.jbqmf.mongodb.net/test`, {
+mongoose.connect(`mongodb+srv://yourname:yourpassword@league.jbqmf.mongodb.net/test`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
